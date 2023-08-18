@@ -43,12 +43,14 @@ setup(
     setup_requires=["pytest-runner"],
     extras_require={
         "test": [
-            "pytest>=5.2.2",
             "black==23.7.0",
+            "pytest>=5.2.2",
+            "mypy>=1.5",
+            "types-PyYAML>=6.0.12",
+            "PyYAML>=6.0.1"
         ],
         "rich": ["rich"],
     },
     tests_require=["git-check[test]"],
-    classifiers=[
-    ],
+    classifiers=[],
 )

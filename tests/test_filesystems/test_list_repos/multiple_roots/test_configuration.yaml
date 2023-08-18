@@ -1,0 +1,6 @@
+scan_dirs:
+  - 'root_one'
+  - 'root_two'
+expected_paths:
+  - 'root_one/this_repo_is_nested/repo_one'
+  - 'root_two/repo_two'

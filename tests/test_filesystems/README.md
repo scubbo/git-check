@@ -1,0 +1,1 @@
+This directory contains directories preconfigured to be targets for commands or operations during testing.

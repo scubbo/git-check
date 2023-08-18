@@ -1,0 +1,4 @@
+scan_dirs:
+  - '.'
+expected_paths:
+  - 'one_repo'
